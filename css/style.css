@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+body{
+    background-color: #f0f2f5;
+}
+.cont{
+    margin: auto;
+    width: 90%;
+    text-align: center;
+    padding: 30px 0;
+    text-transform:capitalize ;
+
+}
+.cont .header{
+    margin-bottom: 15px;
+}
+.cont input{
+    float: left;
+    width: 85%;
+    padding: 5px;
+    outline-offset: 0px;
+    outline: none;
+    font-size: 15px;
+    border:solid 1px #4ba76a;
+
+}
+.cont .add-file{
+    border:solid 1px rgb(75, 167, 106);
+    min-width: 15%;
+    max-width: 15%;
+    float: left;
+    padding: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    color:rgb(75, 167, 106) ;
+    transition: 0.3s;
+}
+.add-file:hover {
+    background-color: #bbb;
+  }
+.cont:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.mylist{
+    padding: 15px 0;
+    width: 90%;
+    margin: auto;
+}
+.mylist .target {
+    font-size: 18px;
+}
+.mylist .target .text{
+    font-size: 18px;
+    display: inline-block;
+}
+.mylist .target .id{
+display: none;
+}
+.mylist .target input{
+    font-size: 18px;
+    border: solid 1px rgb(75, 167, 106);
+}
+.mylist .target input:focus{
+    border: 1px solid rgb(59, 150, 90);
+    box-shadow: 0 0 3px #6cf0bd;
+    outline-offset: 0px;
+    outline: none;
+}
+.mylist > div:not(:last-child){
+    margin-bottom: 10px;
+
+}
+.mylist .target .close{
+    color: rgb(177, 0, 0);
+    float: right;
+    cursor: pointer;
+}
+.mylist .target .edit{
+    color: rgb(22, 122, 214);
+    float: right;
+    margin: 0 15px;
+    cursor: pointer;
+}
+.mylist .target .save{
+    color:rgb(75, 167, 106);
+    float: right;
+    cursor: pointer;
+}
